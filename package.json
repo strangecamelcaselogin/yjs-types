@@ -1,0 +1,28 @@
+{
+  "name": "yjs-types",
+  "version": "0.0.1",
+  "description": "Refined TypeScript types for Yjs",
+  "license": "MIT",
+  "author": "strangecamelcaselogin",
+  "repository": "https://github.com/strangecamelcaselogin/yjs-types",
+  "homepage": "https://github.com/strangecamelcaselogin/yjs-types",
+  "keywords": [
+    "Yjs",
+    "TypeScript"
+  ],
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc --noEmit -w",
+    "lint": "tsc --noEmit",
+    "test": "tsd tests",
+    "build": "rm -rf dist/ && tsc --outDir dist/"
+  },
+  "peerDependencies": {
+    "yjs": "^13.5.29"
+  },
+  "devDependencies": {
+    "tsd": "^0.25.0",
+    "typescript": "^4.9.5"
+  }
+}
