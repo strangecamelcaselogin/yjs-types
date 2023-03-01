@@ -16,7 +16,8 @@
     "start": "tsc --noEmit -w",
     "lint": "tsc --noEmit",
     "test": "tsd tests",
-    "build": "rm -rf dist/ && tsc --outDir dist/"
+    "build": "rm -rf dist/ && tsc --outDir dist/",
+    "prepublish": "npm run lint && npm run test && npm run build"
   },
   "peerDependencies": {
     "yjs": "^13.5.29"
