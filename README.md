@@ -1,5 +1,7 @@
 # yjs-types
 
+[![npm](https://img.shields.io/npm/v/yjs-types)](https://www.npmjs.com/package/yjs-types)
+
 Refined TypeScript types for Yjs
 
 > This project currently is an experiment, things may change
